@@ -1,0 +1,12 @@
+更新与运行
+
+1. 打开解压后包含 run.py 的文件夹。
+2. 将里面的内容复制到 D:\XIANGMU\booking-api-tests，覆盖同名文件。保留 .venv 和原报告。
+3. 在目标目录确认 run.py 与 .venv 同级。
+4. 双击 run-full.cmd。它会运行全部用例，不会重新安装软件。
+5. 结束后打开 reports 内最新 full-*.html；JSON记录是同次运行的请求元数据。
+
+也可以在PowerShell运行：
+.\.venv\Scripts\python.exe run.py full
+
+出错时无需重装环境，把终端完整输出或最新报告交给助手判断。
